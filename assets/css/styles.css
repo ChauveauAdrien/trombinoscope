@@ -1,0 +1,246 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+
+/* init */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway';
+    background: #1A1A1A;
+    color: white;
+
+}
+/* ---------------------------------------- */
+/* login */
+/* ---------------------------------------- */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 98vh;
+}
+.login__logo {
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: bold;
+}
+/* .login__log {
+    font-size: 16px;
+}
+.login__log a {
+    text-decoration: none;
+    color: white;
+} */
+
+.index__form input[type="text"],
+.index__form input[type="password"]{
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+}
+.index__form input[type="submit"] {
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.index__form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index__form form a{
+    color: rgb(54, 103, 194);
+}
+
+/* ---------------------------------------- */
+/* Sign-in */
+/* ---------------------------------------- */
+.sign-in__form input[type="text"],
+.sign-in__form input[type="password"]{
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+}
+.sign-in__form input[type="submit"] {
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: white;
+    cursor: pointer;
+}
+.sign-in__form form {
+display: flex;
+flex-direction: column;
+}
+
+.form__wrapper {
+    display: flex;
+}
+
+.retour__form {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+/* ---------------------------------------- */
+/* Dashboard */
+/* ---------------------------------------- */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 98vh;
+    overflow: hidden;
+
+}
+.dashboard__nav {
+    display: flex;
+    width: 99vw;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.dashboard__nav select {
+    background: none;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+.dashboard__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    margin-top: 250px;
+}
+.dashboard__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.dashboard__title a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard__class {
+    font-size: 24px;
+    line-height: 37.5px;
+}
+.dashboard__pagination {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.dashboard__pagination p{
+    margin-top: 70px;
+}
+
+/* ---------------------------------------- */
+/* trombi */
+/* ---------------------------------------- */
+
+.trombi__content {
+margin-top: 100px;
+display: flex;
+flex-wrap: wrap;
+/* flex-direction: ; */
+}
+.trombi__card{
+    width: 180px;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card__title {
+    font-size: 16px;
+}
+.car__img {
+    margin: 15px 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    /* background-image: url(../img/IMG_4923.jpg); */
+    /* background-size: cover ; */
+}
+.card__p {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.account__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.account__lname {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.account__fname {
+    font-size: 20px;
+}
+
+.account__desc {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 15px;
+}
+
+.delete {
+    text-decoration: none;
+    color: red;
+}
